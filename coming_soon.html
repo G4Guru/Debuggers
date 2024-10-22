@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debuggers - Coming Soon</title>
+  <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #111;
+      color: #f4e8c1;
+      text-align: center;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(120deg, #0e0e0e, #1c1c1c);
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      max-width: 800px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #f4e8c1;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin-bottom: 20px;
+      color: #ddd;
+    }
+
+    .loader {
+      width: 80px;
+      height: 80px;
+      border: 10px solid rgba(255, 255, 255, 0.1);
+      border-top: 10px solid #d4af37;
+      border-radius: 50%;
+      animation: spin 1.5s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .company-name {
+      font-size: 1.5em;
+      margin-top: 10px;
+      color: #f4e8c1;
+      opacity: 0;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .funny-text {
+      font-size: 1.1em;
+      margin-top: 15px;
+      color: #d4af37;
+      animation: floatText 3s ease-in-out infinite;
+      letter-spacing: 1px;
+    }
+
+    @keyframes floatText {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+
+    .back-home {
+      margin-top: 30px;
+      padding: 12px 30px;
+      font-size: 1.1em;
+      color: #111;
+      background: #d4af37;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .back-home:hover {
+      background-color: #b28f27;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5em;
+      }
+
+      p {
+        font-size: 1.1em;
+      }
+
+      .loader {
+        width: 70px;
+        height: 70px;
+      }
+
+      .back-home {
+        padding: 10px 25px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Coming Soon!</h1>
+    <p>We are preparing something amazing for you.</p>
+    <div class="loader"></div>
+    <div class="company-name">Debuggers - Solving Problems, One Bug at a Time</div>
+    <div class="funny-text">Our devs are perfecting the code. Please be patient.</div>
+
+    <button class="back-home" onclick="location.href='/'">Back to Home</button>
+  </div>
+</body>
+</html>

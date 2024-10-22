@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Debuggers - FAQ's</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="icon" href="images/icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="images/icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__bar"></div>
+			<div class="loader__ball"></div>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+    
+	<div class="top-bar">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="left-top">
+						<div class="email-box">
+							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> debuggers@gmail.com</a>
+						</div>
+						<div class="phone-box">
+							<a href="#"><i class="fa fa-phone" aria-hidden="true"></i> +92 123 4567890</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="right-top">
+						<div class="social-box">
+							<ul>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							<ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logos/logo.png" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <!-- <li><a href="pricing.html">Pricing</a></li> -->
+						<li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+   	<div class="banner-area banner-bg-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="banner">
+						<h2>Our Faq's</h2>
+						<ul class="page-title-link">
+							<li><a href="index.html">Home</a></li>
+							<li><a>Our Faq</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- FAQs Section Start -->
+    
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Our Faq</h3>
+                <p class="lead">At Debuggers, we understand that navigating software development can raise many questions.<br>Whether you're seeking technical support or insights into our services, we’re here to help you with clear answers and expert guidance!</p>
+            </div><!-- end title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq1')">
+                            <h4>1. What types of web development services do you offer?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq1">
+                            <p>We provide a wide range of web development services including custom websites, responsive web design, single-page applications (SPA), content management systems (CMS) like WordPress, and enterprise web applications.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq2')">
+                            <h4>2. Can you develop a custom e-commerce store tailored to my business needs?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq2">
+                            <p>Yes, we specialize in building custom e-commerce stores with features like product management, payment gateway integration, shopping carts, and advanced analytics tailored to your specific business requirements.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq3')">
+                            <h4>3. What technologies do you use for web development?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq3">
+                            <p>Our team works with modern technologies like HTML5, CSS3, JavaScript (React, Vue.js), PHP, Laravel, Node.js, Python, and more to create robust and scalable web applications.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq4')">
+                            <h4>4. Do you provide ongoing support after the project is completed?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq4">
+                            <p>Yes, we offer ongoing maintenance and support packages to ensure your website or e-commerce store runs smoothly, including security updates, performance optimization, and troubleshooting.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq5')">
+                            <h4>5. How much time does it take to develop an e-commerce store?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq5">
+                            <p>The timeline for developing an e-commerce store depends on the complexity of the project. A basic store may take 4–6 weeks, while more advanced custom stores with multiple features could take 8–12 weeks or longer.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq6')">
+                            <h4>6. What is the process of working with your graphics design team?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq6">
+                            <p>Our graphics design process begins with understanding your brand and project goals. We then create initial design concepts and refine them based on your feedback. Once finalized, we deliver the designs in the required formats for use in web, print, or digital media.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq7')">
+                            <h4>7. Can you redesign an existing website or e-commerce store?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq7">
+                            <p>Yes, we offer website and e-commerce store redesign services to improve user experience (UX), enhance functionality, and ensure the site is optimized for mobile and search engines.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq8')">
+                            <h4>8. What kind of graphics design services do you provide?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq8">
+                            <p>Our graphics design services include logo design, branding, UI/UX design, marketing materials (brochures, flyers), social media graphics, and website visuals. We ensure your visuals reflect your brand identity and engage your target audience.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq9')">
+                            <h4>9. How do you ensure my website or e-commerce store is secure?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq9">
+                            <p>We implement best security practices including SSL encryption, secure coding techniques, regular updates, and strong authentication mechanisms to safeguard your website or e-commerce store from vulnerabilities.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq10')">
+                            <h4>10. Can you integrate third-party tools and services into my website or e-commerce store?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq10">
+                            <p>Absolutely! We can integrate a variety of third-party services such as payment gateways (Stripe, PayPal), shipping providers, CRMs, marketing tools, and more to enhance the functionality of your website or e-commerce store.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq11')">
+                            <h4>11. Do you offer branding and logo design services?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq11">
+                            <p>Yes, we provide comprehensive branding services, including logo design, color schemes, typography, and overall brand identity development. We work closely with you to create a cohesive and memorable brand that resonates with your target audience.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleAnswer('faq12')">
+                            <h4>12. Can you create custom illustrations and icons for my website or marketing materials?</h4>
+                            <span class="toggle-icon">+</span>
+                        </div>
+                        <div class="faq-answer" id="faq12">
+                            <p>Absolutely! Our team can design custom illustrations, icons, and other visual elements tailored to your brand. These assets can be used across websites, mobile apps, marketing materials, and social media to enhance the visual appeal and user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <!-- FAQs Section End -->
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('uploads/parallax_03.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Testimonials</h3>
+                <p class="lead">We’re proud to share the experiences of our satisfied customers.<br>Hear what  they have to say about their success with Debuggers' exceptional web solutions!</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Exceptional Support!</h3>
+                                <p class="lead">Debuggers delivered my project on time with precision and professionalism. Their skilled team went above and beyond to meet my needs and exceed expectations.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>Killians - Portfolio <small>- Germany</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Outstanding Services!</h3>
+                                <p class="lead">They took the time to explain every detail, ensuring I understood the process. The final result was flawless, and I couldn’t be happier with the outcome.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
+                                <h4>Diana Barills - Portfolio <small>- USA</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Fast and Reliable!</h3>
+                                <p class="lead">I was amazed by their quick turnaround and high-quality work. Debuggers made the entire process seamless and stress-free. Highly recommend them for any web project!</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_04.png" alt="" class="img-responsive alignleft">
+                                <h4>Reptartheman - Restaurant Portfolio<small>- France</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Impressive Team of Experts!</h3>
+                                <p class="lead">Their attention to detail and innovative approach truly sets them apart. The Debuggers team delivered a solution that perfectly matched my vision, with ease and creativity.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
+                                <h4>Luxury Fleet - Tour and Travels - Business  <small>- Pakistan</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Creative & Professional!</h3>
+                                <p class="lead">From start to finish, Debuggers demonstrated professionalism and creativity. They listened carefully to my ideas and brought them to life with a design that stands out.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_05.png" alt="" class="img-responsive alignleft">
+                                <h4>Mian Tahir - E-Commerce Store <small>- Pakistan</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Top-Notch Quality!</h3>
+                                <p class="lead">I’m thoroughly impressed with their service! The website they built is user-friendly, responsive, and looks amazing. Debuggers truly delivers top-notch quality every time.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                                <h4>Bilal - Event Management <small>- Pakistan</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <hr class="hr1">
+
+            <div class="row logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_01.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <!-- <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_02.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_03.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_04.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_05.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="uploads/logo_06.png" alt="" class="img-repsonsive"></a>
+                </div> -->
+            </div><!-- end row -->
+
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="images/logos/logo-2.png" alt="" />
+                        </div>
+                        <p>We’re here to help you take your business to the next level. Whether you need web development services, support, or have any inquiries, feel free to reach out.</p>
+                        <p>Our team is always ready to assist and guide you towards digital success.</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3 style="color: #d4af37;">Pages</h3>
+                        </div>
+
+                        <ul class="footer-links hov">
+                            <li><a href="index.html">Home <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="blogs.html">Blog <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="about-us.html">About <span class="icon icon-arrow-right2"></span></a></li>
+							<!-- <li><a href="pricing.html">Pricing <span class="icon icon-arrow-right2"></span></a></li> -->
+                            <li><a href="services.html">Services <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="faq.html">Faq <span class="icon icon-arrow-right2"></span></a></li>
+							<li><a href="contact.html">Contact <span class="icon icon-arrow-right2"></span></a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer-distributed widget clearfix">
+                        <div class="widget-title">
+                            <h3 style="color: #d4af37;">Subscribe</h3>
+							<p>Stay updated with the latest news, exclusive offers, and valuable insights from Debuggers. Subscribe to our newsletter and never miss out on our exciting updates!</p>
+                        </div>
+						
+						<div class="footer-right">
+							<form method="get" action="#">
+								<input placeholder="Subscribe our newsletter..." name="search">
+								<i class="fa fa-envelope-o"></i>
+							</form>
+						</div>                        
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2024 <a href="index.html" style="color: #d4af37;">Debuggers</a> Design By : 
+					<a href="https://ahmernadeem.vercel.app/" style="color: #d4af37;">Ahmer Nadeem</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/hoverdir.js"></script>    
+</body>
+</html>
